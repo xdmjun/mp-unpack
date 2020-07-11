@@ -8,6 +8,8 @@
 参考博主的原创文章  
 > [以中银E路通小程序为例10分钟带你学会微信小程序的反编译](http://xuedingmiao.com/blog/xcx_unpack.html)
 
+<img src="mp-unpack.png" alt="解包过程" height="220" />
+
 #### 如何使用
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](https://www.npmjs.com/)) installed on your computer. From your command line:
@@ -29,6 +31,9 @@ npm run build:linux
 npm run build:win32
 npm run build:win64
 ```
+
+#### 公众号
+<img src="gzh.jpg" alt="公众号" height="100" />
 
 #### [Download Released App](https://github.com/xuedingmiaojun/mp-unpack/releases)
 

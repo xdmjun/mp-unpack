@@ -13,7 +13,7 @@
     "build:win": "node .electron-vue/build.js && electron-builder --win --ia32",
     "build:win32": "node .electron-vue/build.js && electron-builder --win --ia32",
     "build:win64": "node .electron-vue/build.js && electron-builder --win --x64",
-    "build:mac": "node .electron-vue/build.js && electron-builder --darwin",
+    "build:mac": "node .electron-vue/build.js && electron-builder --mac",
     "build:linux": "node .electron-vue/build.js && electron-builder --linux x64",
     "dev": "node .electron-vue/dev-runner.js",
     "pack": "npm run pack:main && npm run pack:renderer",
