@@ -112,10 +112,8 @@ export default {
     doExport() {
       ipcRenderer.send('do-export', this.useDefault ? '' : this.name)
       ipcRenderer.on('asynchronous-export', (event, arg) => {
-        let folderName = arg.substr(0, arg.lastIndexOf('.'))
         dialog.showSaveDialog(
           {
-            defaultPath: folderName + '.zip',
             title: '保存文件',
             buttonLabel: '导出',
             filters: [{ name: 'Custom File Type', extensions: ['zip'] }]
