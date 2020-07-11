@@ -56,6 +56,8 @@
 const fs = require('fs')
 import { ipcRenderer, shell, clipboard } from 'electron'
 const { dialog } = require('electron').remote
+const { remote } = require('electron')
+let configDir = remote.app.getPath('userData')
 export default {
   data() {
     return {
@@ -112,8 +114,10 @@ export default {
     doExport() {
       ipcRenderer.send('do-export', this.useDefault ? '' : this.name)
       ipcRenderer.on('asynchronous-export', (event, arg) => {
+        let folderName = configDir + arg.substr(0, arg.lastIndexOf('.'))
         dialog.showSaveDialog(
           {
+            defaultPath: folderName + '.zip',
             title: '保存文件',
             buttonLabel: '导出',
             filters: [{ name: 'Custom File Type', extensions: ['zip'] }]
