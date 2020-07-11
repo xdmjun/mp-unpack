@@ -110,26 +110,29 @@ export default {
       ipcRenderer.send('do-unpack', this.useDefault ? '' : this.name)
     },
     doExport() {
-      this.logs = ''
       ipcRenderer.send('do-export', this.useDefault ? '' : this.name)
       ipcRenderer.on('asynchronous-export', (event, arg) => {
+        let folderName = arg.substr(0, arg.lastIndexOf('.'))
         dialog.showSaveDialog(
           {
+            defaultPath: folderName + '.zip',
             title: '保存文件',
             buttonLabel: '导出',
             filters: [{ name: 'Custom File Type', extensions: ['zip'] }]
           },
           result => {
-            let zipFile = fs.readFileSync(arg)
-            fs.writeFileSync(result, zipFile)
-            this.$message('导出成功')
-            this.end = 0
-            this.useDefault = false
-            let folderName = arg.substr(0, arg.lastIndexOf('.'))
+            if (result) {
+              let zipFile = fs.readFileSync(arg)
+              fs.writeFileSync(result, zipFile)
+              this.$message('导出成功')
+            }
             fs.unlink(arg, err => {
               if (err) throw err
               console.log('文件已被删除')
             })
+            this.logs = ''
+            this.end = 0
+            this.useDefault = false
           }
         )
       })
@@ -186,7 +189,7 @@ export default {
       margin-bottom: 10px;
     }
     .logs {
-      height: 250px;
+      height: 160px;
       overflow: auto;
     }
     .download {

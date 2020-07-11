@@ -30,6 +30,6 @@ npm run build:win32
 npm run build:win64
 ```
 
-#### [Download Released App](https://github.com/geeeeeeeeek/electronic-wechat/releases)
+#### [Download Released App](https://github.com/xuedingmiaojun/mp-unpack/releases)
 
 #### License [MIT](LICENSE.md)
