@@ -14,10 +14,12 @@
 
 #### 运行截图  
 
-左:Mac 右:Windows  
+Mac  
+<img src="mp-unpack.png" alt="mac解包截图" width="420" />  
 
-<img src="mp-unpack.png" alt="mac解包截图" height="220" style="display:inline" />
-<img src="mp-unpack-win.png" alt="windows解包截图" height="220" />
+Windows  
+
+<img src="mp-unpack-win.png" alt="windows解包截图" width="420" />
 
 #### 如何使用
 
