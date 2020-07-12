@@ -8,7 +8,8 @@
 参考博主的原创文章  
 > [以中银E路通小程序为例10分钟带你学会微信小程序的反编译](http://xuedingmiao.com/blog/xcx_unpack.html)
 
-<img src="mp-unpack.png" alt="解包过程" height="220" />
+<img src="mp-unpack.png" alt="mac解包截图" height="250" />
+<img src="mp-unpack-win.png" alt="windows解包截图" height="140" />
 
 #### 如何使用
 
