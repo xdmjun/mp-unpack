@@ -3,13 +3,21 @@
 基于electron-vue开发的微信小程序自助解包客户端  
 > 方便没有技术基础的同学轻松进行小程序的反编译
 
-#### 使用模拟器获取小程序包
+#### 为什么使用electron来做
+
+上手方便、可跨平台
+
+#### 前置准备：利用模拟器获取小程序包
 
 参考博主的原创文章  
 > [以中银E路通小程序为例10分钟带你学会微信小程序的反编译](http://xuedingmiao.com/blog/xcx_unpack.html)
 
-<img src="mp-unpack.png" alt="mac解包截图" height="250" />
-<img src="mp-unpack-win.png" alt="windows解包截图" height="140" />
+#### 运行截图  
+
+左:Mac 右:Windows  
+
+<img src="mp-unpack.png" alt="mac解包截图" height="220" style="display:inline" />
+<img src="mp-unpack-win.png" alt="windows解包截图" height="220" />
 
 #### 如何使用
 
@@ -27,6 +35,7 @@ npm install && cd tool/ && npm install
 To pack into an app, simply type one of these:
 
 ``` shell
+npm run build
 npm run build:mac
 npm run build:linux
 npm run build:win32
@@ -34,7 +43,7 @@ npm run build:win64
 ```
 
 #### 公众号
-<img src="gzh.jpg" alt="公众号" height="100" />
+<img src="gzh.jpg" alt="公众号" height="110" />
 
 #### [Download Released App](https://github.com/xuedingmiaojun/mp-unpack/releases)
 
