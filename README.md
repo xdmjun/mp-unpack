@@ -47,6 +47,10 @@ npm run build:win64
 #### 公众号
 <img src="gzh.jpg" alt="公众号" height="110" />
 
+#### 捐赠
+<img src="wxpay.png" alt="wxpay" height="70" />
+<img src="alipay.png" alt="alipay" height="70" />
+
 #### [Download Released App](https://github.com/xuedingmiaojun/mp-unpack/releases)
 
 #### License [MIT](LICENSE.md)
