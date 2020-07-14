@@ -53,4 +53,4 @@ npm run build:win64
 
 #### [Download Released App](https://github.com/xuedingmiaojun/mp-unpack/releases)
 
-#### License [MIT](LICENSE.md)
+#### License [GPL](LICENSE.md)
