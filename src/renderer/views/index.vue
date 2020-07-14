@@ -40,9 +40,15 @@
       </div>
     </el-upload>
     <div class="btns">
-      <el-button type="primary" :disabled="disabled" round @click="unpack">解包</el-button>
+      <el-button
+        type="primary"
+        :disabled="disabled"
+        :loading="loading"
+        round
+        @click="unpack"
+      >解包{{loading?'中...':''}}</el-button>
     </div>
-    <div v-if="!disabled||useDefault" class="exec-logs">
+    <div v-if="logs!=''" class="exec-logs">
       <div class="title">↓↓执行日志↓↓</div>
       <div class="logs" v-html="logs"></div>
     </div>
@@ -62,6 +68,7 @@ export default {
   data() {
     return {
       useDefault: false,
+      loading: false,
       files: [],
       disabled: true,
       logs: '',
@@ -77,12 +84,13 @@ export default {
   mounted() {
     let that = this
     ipcRenderer.on('asynchronous-reply', (event, arg) => {
-      if (arg === 0) {
+      if (arg === 0 || arg === 1) {
         that.end = 1
         that.disabled = false
-      } else {
-        that.logs += arg + '<br>'
+        that.loading = false
+        return
       }
+      that.logs += arg + '<br>'
     })
   },
   methods: {
@@ -109,6 +117,7 @@ export default {
     unpack() {
       this.logs = ''
       this.disabled = true
+      this.loading = true
       ipcRenderer.send('do-unpack', this.useDefault ? '' : this.name)
     },
     doExport() {
