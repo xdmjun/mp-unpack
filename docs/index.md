@@ -38,12 +38,10 @@ npm run build:win32
 npm run build:win64
 ```
 
+解包时源文件请使用wxapkg文件  
+
 #### 公众号
 <img src="/gzh.jpg" alt="公众号" height="110" />
-
-#### 捐赠
-<img src="/wxpay.png" alt="wxpay" height="170" />
-<img src="/alipay.png" alt="alipay" height="170" />
 
 #### [Download Released App](https://github.com/xuedingmiaojun/mp-unpack/releases)
 

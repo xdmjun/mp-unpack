@@ -99,19 +99,25 @@ export default {
     },
     upload(file, fileList) {
       if (file) {
+        let type = file.name.substring(file.name.lastIndexOf('.') + 1)
+        if (type !== 'wxapkg') {
+          this.$message.error('请上传wxapkg文件')
+          fileList.splice(fileList.findIndex(f => (f.name = file.name)), 1)
+          return false
+        }
         this.disabled = false
         this.name = file.name
-        this.uploadImageFiles([
+        this.uploadFiles([
           {
             name: file.name,
             path: file.raw.path,
             type: file.raw.type
           }
         ])
+        this.$message('已选择一个文件')
       }
-      this.$message('已选择一个文件')
     },
-    uploadImageFiles(files) {
+    uploadFiles(files) {
       ipcRenderer.send('file-upload', files[0])
     },
     unpack() {
