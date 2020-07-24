@@ -47,15 +47,11 @@ npm run build:win64
 #### 公众号
 <img src="gzh.jpg" alt="公众号" height="110" />
 
-#### 捐赠
-<img src="wxpay.png" alt="wxpay" height="170" />
-<img src="alipay.png" alt="alipay" height="170" />
-
 #### [Download Released App](https://github.com/xuedingmiaojun/mp-unpack/releases)
 
 #### License [GPL](LICENSE.md)
 
 #### 说明
-本软件使用GPL协议，基于wxappUnpacker进行开发，以插件形式集成并保持了工具独立性。  
+本软件使用GPL协议，基于wxappUnpacker进行开发，以插件形式集成并保持了工具独立性，仅供技术交流。  
 发现有朋友将本软件上架到了闲鱼进行售卖，在此说明一下，本软件是开源免费的，不需要也没有提供任何购买的渠道。  
 目前仅可以从github及开源中国获取，其它渠道作者无法保证该软件是否感染计算机病毒、是否隐藏有伪装的特洛伊木马程序或者黑客软件，不承担由此引起的直接和间接损害责任。  
