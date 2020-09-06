@@ -1,6 +1,6 @@
 {
   "name": "mp-unpack",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "xg <490599161@qq.com>",
   "description": "minipro unpack tool build from electron-vue project",
   "license": null,
