@@ -1,9 +1,9 @@
 {
   "name": "mp-unpack",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "xg <490599161@qq.com>",
   "description": "minipro unpack tool build from electron-vue project",
-  "license": null,
+  "license": "gpl",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
