@@ -9,6 +9,13 @@
 #### 逆向教程小程序
 <img src="http://cdn.xuedingmiao.com/nxjc.jpg" alt="逆向教程" height="185" />  
 
+#### 小程序逆向实战训练营
+
+- 还是不知道怎么逆向？
+- 遇到问题不会处理？
+
+[小程序逆向实战训练营](https://m.lizhiweike.com/traincamp/26387)限时报名中
+
 #### 运行截图  
 
 Mac  
