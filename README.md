@@ -50,11 +50,11 @@ npm run build:win64
 #### 公众号
 <img src="gzh.jpg" alt="公众号" height="130" />
 
-#### [小程序逆向实战训练营](https://m.lizhiweike.com/traincamp/26387)
+#### [小程序逆向视频专栏](https://zhuanlan.zhihu.com/p/151801178)
 - 还是不知道怎么逆向？
-- 遇到问题不会处理？
-快来参加训练营吧~。  
-[小程序逆向实战训练营](https://m.lizhiweike.com/traincamp/26387)限时报名中
+- 遇到问题不会处理？  
+快来试试作者匠心录制的视频系列课程吧~。  
+[人人都能学会的微信小程序逆向技能](https://zhuanlan.zhihu.com/p/151801178)
 
 #### 捐赠
 <img src="wxpay.png" alt="wxpay" height="190" />
