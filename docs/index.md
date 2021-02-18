@@ -9,12 +9,12 @@
 #### 逆向教程小程序
 <img src="http://cdn.xuedingmiao.com/nxjc.jpg" alt="逆向教程" height="185" />  
 
-#### 小程序逆向实战训练营
-
+#### [小程序逆向视频专栏](https://zhuanlan.zhihu.com/p/151801178)
 - 还是不知道怎么逆向？
-- 遇到问题不会处理？
+- 遇到问题不会处理？  
 
-[小程序逆向实战训练营](https://m.lizhiweike.com/traincamp/26387)限时报名中
+快来试试作者匠心录制的视频系列课程吧~。  
+[人人都能学会的微信小程序逆向技能](https://zhuanlan.zhihu.com/p/151801178)    
 
 #### 运行截图  
 
