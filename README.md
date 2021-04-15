@@ -56,6 +56,9 @@ npm run build:win64
 快来试试作者匠心录制的视频系列课程吧~。  
 [人人都能学会的微信小程序逆向技能](https://m.lizhiweike.com/channel2/1037814)
 
+#### 逆向疑难小程序
+- [逆向喜茶Go](https://www.bilibili.com/video/BV1Lv411a73w/)
+
 #### 捐赠
 <img src="wxpay.png" alt="wxpay" height="190" />
 <img src="alipay.png" alt="alipay" height="190" />
